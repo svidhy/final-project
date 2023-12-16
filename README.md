@@ -1,10 +1,10 @@
 # final-project
 
-# Dish Search Engine
+# NutriSnap
 
 ## Overview
 
-Welcome to the Dish Search Engine project! This application serves as a dish search engine where users can upload a picture, and a deep learning model will recommend the likely category of the dish. The model has been trained on a dataset containing 91 categories, spanning multiple cuisines.
+Welcome to the NutriSnap project! This application serves as a dish search engine where users can upload an image, and a deep learning model will recommend the likely category of the dish. The model has been trained on a dataset containing 91 categories, spanning multiple cuisines.
 
 ## Features
 
@@ -28,7 +28,7 @@ Welcome to the Dish Search Engine project! This application serves as a dish sea
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/dish-search-engine.git
+    git clone https://github.com/svidhya/final_project.git
     cd dish-search-engine
     ```
 
@@ -52,7 +52,7 @@ The deep learning model has been trained on a dataset with 91 dish categories. R
 
 ## Contributing
 
-Contributions are welcome! If you'd like to enhance or extend the functionality of the dish search engine, please submit a pull request.
+Contributions are welcome! If you'd like to enhance or extend the functionality of NutriSnap, please submit a pull request.
 
 ## License
 

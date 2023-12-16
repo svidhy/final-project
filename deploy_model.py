@@ -12,8 +12,8 @@ from agstyler import PINLEFT, PRECISION_TWO, draw_grid
 
 fn.set_background('./images/bg8.jpeg')
 
-#st.markdown(f'<h1 style="color:#000000;font-size:36px;">{"Welcome To Dish Search Engine!"}</h1>', unsafe_allow_html=True)
-st.title("Welcome to Dish Search Engine!")
+st.markdown('<script src="https://developer.edamam.com/attribution/badge.js"></script>', unsafe_allow_html=True)
+st.title("Welcome to NutriSnap!")
 
 recipe_db, labels = fn.init_page()
 incep_model = fn.load_the_model()
@@ -35,7 +35,8 @@ if uploaded_file is not None:
             # Replace the button with an empty container
             confirm_button_container = st.empty()
             recipe = fn.format_recipe(recipes)
-            #st.table(recipe)
+            # Display the Edamam badge
+            # Display the Edamam badge and the CSS
             st.write(recipe.to_html(escape=False, index=False), unsafe_allow_html=True)
         elif no_button:
             st.write("Sorry, we will work on this!")
