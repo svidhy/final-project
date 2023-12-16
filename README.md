@@ -28,17 +28,11 @@ Welcome to the NutriSnap project! This application serves as a dish search engin
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/svidhya/final_project.git
-    cd dish-search-engine
+    git clone https://github.com/svidhy/final_project.git
+    cd final_project
     ```
 
-2. Install dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the application:
+2. Run the application:
 
     ```bash
     streamlit run deploy_model.py
